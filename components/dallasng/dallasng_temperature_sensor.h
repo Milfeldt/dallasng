@@ -28,7 +28,7 @@ namespace esphome
                 return address_;
             }
 
-            const std::string get_address_name()
+            const std::string &get_address_name()
             {
                 if (address_name_.empty())
                 {
